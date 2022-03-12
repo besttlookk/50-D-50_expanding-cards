@@ -43,7 +43,7 @@ body {
   align-items: center;
   position: relative;
   height: 70vh;
-  border-radius: 1.5rem;
+  border-radius: 2rem;
   transition: transform 0.9s linear;
   background-repeat: no-repeat;
   background-position: center;
@@ -102,7 +102,7 @@ body {
 
 .quote {
   position: relative;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .quote::before {
@@ -114,8 +114,18 @@ body {
 }
 
 .author {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-top: 1rem;
   text-align: right;
   font-style: italic;
+}
+
+@media screen and (max-width: 680px) {
+  .card:nth-of-type(4) {
+    display: none;
+  }
+
+  .card:nth-of-type(5) {
+    display: none;
+  }
 }
