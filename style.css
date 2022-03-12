@@ -43,7 +43,7 @@ body {
   align-items: center;
   position: relative;
   height: 70vh;
-  border-radius: 2rem;
+  border-radius: 3rem;
   transition: transform 0.9s linear;
   background-repeat: no-repeat;
   background-position: center;
