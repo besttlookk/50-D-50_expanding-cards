@@ -11,7 +11,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 100%;
 }
 
 body {
@@ -26,8 +26,8 @@ body {
 }
 
 .gallery {
-  max-width: 128rem;
-  padding: 3rem;
+  max-width: 100rem;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@ body {
   align-items: center;
   position: relative;
   height: 70vh;
-  border-radius: 5rem;
+  border-radius: 1.5rem;
   transition: transform 0.9s linear;
   background-repeat: no-repeat;
   background-position: center;
@@ -92,7 +92,7 @@ body {
   z-index: 2;
   opacity: 0;
   transition: opacity 0.5s ease-ingit;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .card.active .content {
@@ -102,7 +102,7 @@ body {
 
 .quote {
   position: relative;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 .quote::before {
@@ -114,7 +114,8 @@ body {
 }
 
 .author {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   margin-top: 1rem;
   text-align: right;
+  font-style: italic;
 }
